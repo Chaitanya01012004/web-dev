@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+.head1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+        }
+        
+        .profile {
+            border-radius: 50px;
+        }
+
+        .profile-div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-items ul {
+            display: flex;
+            justify-content: center;
+            background-color: azure;
+            padding: 20px;
+            gap: 40px;
+
+
+        }
+
+        .nav-items ul li {
+            list-style-type: none;
+        }
+
+        .nav-items ul li a {
+            text-decoration: none;
+        }
+
+        .picture {
+            background-image: url("../Assets/school2.jpg");
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+        }
+
+        .heading {
+            background-color: cornflowerblue;
+            width: fit-content;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            color: aliceblue;
+            padding: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10%;
+
+        }
+
+        .b {
+            background-color: darkslategray;
+            color: azure;
+            font-style: initial;
+            padding: 15px;
+        }
+
+        .school {
+            margin-top: 60px;
+            display: flex;
+            padding:20px;
+        }
+        
+        .b1{
+            background-color:darkolivegreen;
+            color: aliceblue;
+        }
+        .contact-section{
+    background-color: aliceblue;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contact-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form button{
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+            
+        
+    </style>
+
+<body>
+    <header>
+        <div class="head1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img src="../Assets/logo.png" alt="logo" height="100" width="150">
+        
+            
+            <div class="profile-div">
+                <img class="profile" src="../Assets/my-profile.png" alt="Myprofile" height="50"
+                    width="50">
+                <i class="fa-solid fa-chevron-down"></i>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <nav class="nav-items">
+        <ul>
+            <li><a href="../public/project1.html">Home</a></li>
+            <li><a href="../public/aboutussch.html">About</a></li>
+            <li><a href="../public/Acadamecis.html">Acadamecis</a></li>
+            <li><a href="../public/Events.html">Events</a></li>
+            <li><a href="../public/contact.html">Contact</a></li>
+            <li><a href="">students</a></li>
+            <li><a href="">Parents</a></li>
+            <li><a href="">Admissions</a></li>
+        </ul>
+    </nav>
+    <section class="contact-section">
+
+<form class="contact-form">
+
+<h2>Contact Us</h2>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="tel" placeholder="Phone Number">
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="5" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+</body>
+
+</html>

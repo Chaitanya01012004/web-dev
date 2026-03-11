@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+.head1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+        }
+        
+        .profile {
+            border-radius: 50px;
+        }
+
+        .profile-div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-items ul {
+            display: flex;
+            justify-content: center;
+            background-color: azure;
+            padding: 20px;
+            gap: 40px;
+
+
+        }
+
+        .nav-items ul li {
+            list-style-type: none;
+        }
+
+        .nav-items ul li a {
+            text-decoration: none;
+        }
+
+        .picture {
+            background-image: url("../Assets/school2.jpg");
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+        }
+
+        .heading {
+            background-color: cornflowerblue;
+            width: fit-content;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            color: aliceblue;
+            padding: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10%;
+
+        }
+
+        .b {
+            background-color: darkslategray;
+            color: azure;
+            font-style: initial;
+            padding: 15px;
+            border-radius:20px;
+        }
+
+        .school {
+            margin-top: 60px;
+            display: flex;
+            padding:20px;
+        }
+        .data{
+            background-color:cadetblue;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding:30px;
+            padding-inline:100px;
+
+        }
+        .b1{
+            background-color:darkolivegreen;
+            color: aliceblue;
+            border-radius:10px;
+        }
+            
+        
+    </style>
+
+<body>
+    <header>
+        <div class="head1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img src="../Assets/logo.png" alt="logo" height="100" width="150">
+        
+            
+            <div class="profile-div">
+                <img class="profile" src="../Assets/my-profile.png" alt="Myprofile" height="50"
+                    width="50">
+                <i class="fa-solid fa-chevron-down"></i>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <nav class="nav-items">
+        <ul>
+            <li><a href="../public/project1.html">Home</a></li>
+            <li><a href="../public/aboutussch.html">About</a></li>
+            <li><a href="../public/Acadamecis.html">Acadamecis</a></li>
+            <li><a href="../public/Events.html">Events</a></li>
+            <li><a href="../public/contact.html">contact</a></li>
+            <li><a href="">students</a></li>
+            <li><a href="">Parents</a></li>
+            <li><a href="">Admissions</a></li>
+        </ul>
+    </nav>
+    <section class="picture">
+        <div class="heading">
+            <h1>Back to school</h1>
+            <h2>Welcome to all our students</h2>
+            <button class="b">Discover the school</button>
+        </div>
+    </section>
+    <section class="school">
+        <img src="../Assets/school1.jpg" alt="schholimage1" height="500" width="600">
+        <div class="data">
+            <h1>Studentlife</h1>
+            <p>A Student Information System (SIS) is a, centralized, secure digital platform that manages the entire
+                student lifecycle—from enrollment and attendance to grades, transcripts, and fees</p>
+            <button class="b1">Student Information</button>
+        </div>
+
+    </section>
+</body>
+
+</html>
