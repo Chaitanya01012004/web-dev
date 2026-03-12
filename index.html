@@ -45,6 +45,11 @@
 
         .nav-items ul li a {
             text-decoration: none;
+            background-color: turquoise;
+            padding:10px;
+            border-radius: 10px;
+
+
         }
 
         .picture {
@@ -73,6 +78,7 @@
             color: azure;
             font-style: initial;
             padding: 15px;
+            border-radius:20px;
         }
 
         .school {
@@ -80,44 +86,24 @@
             display: flex;
             padding:20px;
         }
-        
+        .data{
+            background-color:cadetblue;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding:30px;
+            padding-inline:100px;
+
+        }
         .b1{
             background-color:darkolivegreen;
             color: aliceblue;
+            border-radius:10px;
         }
-        .contact-section{
-    background-color: aliceblue;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-form{
-    background-color: white;
-    padding: 30px;
-    width: 400px;
-    border-radius: 10px;
-}
-
-.contact-form h2{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.contact-form input,
-.contact-form textarea{
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-}
-
-.contact-form button{
-    background-color: cadetblue;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    border: none;
-}
             
         
     </style>
@@ -145,38 +131,33 @@
     </header>
     <nav class="nav-items">
         <ul>
-            <li><a href="../public/index.html">Home</a></li>
-            <li><a href="../public/aboutussch.html">About</a></li>
-            <li><a href="../public/Acadamecis.html">Acadamecis</a></li>
-            <li><a href="../public/Events.html">Events</a></li>
-            <li><a href="../public/contact.html">Contact</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/aboutussch.html">About</a></li>
+            <li><a href="/Acadamecis.html">Acadamecis</a></li>
+            <li><a href="/Events.html">Events</a></li>
+            <li><a href="/contact.html">contact</a></li>
             <li><a href="">students</a></li>
             <li><a href="">Parents</a></li>
             <li><a href="">Admissions</a></li>
         </ul>
     </nav>
-    <section class="contact-section">
+    <section class="picture">
+        <div class="heading">
+            <h1>Back to school</h1>
+            <h2>Welcome to all our students</h2>
+            <button class="b">Discover the school</button>
+        </div>
+    </section>
+    <section class="school">
+        <img src="./Assets/school1.jpg" alt="schholimage1" height="500" width="600">
+        <div class="data">
+            <h1>Studentlife</h1>
+            <p>A Student Information System (SIS) is a, centralized, secure digital platform that manages the entire
+                student lifecycle—from enrollment and attendance to grades, transcripts, and fees</p>
+            <button class="b1">Student Information</button>
+        </div>
 
-<form class="contact-form">
-
-<h2>Contact Us</h2>
-
-<input type="text" placeholder="Full Name" required>
-
-<input type="email" placeholder="Email Address" required>
-
-<input type="tel" placeholder="Phone Number">
-
-<input type="text" placeholder="Subject">
-
-<textarea rows="5" placeholder="Your Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
-
-</section>
-
+    </section>
 </body>
 
 </html>
