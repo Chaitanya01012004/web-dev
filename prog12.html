@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Increment Counter</title>
+</head>
+<body>
+
+  <h1 id="count">0</h1>
+  <button onclick="increment()">Click Me</button>
+
+  <script>
+    let count = 0;
+
+    function increment() {
+      count++;  // increase by 1
+      document.getElementById("count").textContent = count;
+    }
+  </script>
+
+</body>
+</html>
